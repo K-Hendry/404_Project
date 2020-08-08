@@ -93,6 +93,30 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/dev/footer.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/footer.html",
+		"oF": 0
+		},
+	"/dev/gallery.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/gallery.html",
+		"oF": 0
+		},
+	"/dev/header.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/header.html",
+		"oF": 0
+		},
 	"/dev/index.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -239,6 +263,19 @@
 		"oA": 1,
 		"oAP": "/dev/scss/layout/_header.css",
 		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/dev/scss/sections/_gallery.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/deploy/css/styles.css",
+		"oF": 3,
 		"oS": 0,
 		"sct": 0
 		},

@@ -3,18 +3,29 @@
 ============= */
 body{
     font-family: 'Montserrat', sans-serif;
+    color: $red;
+    z-index: 100;
 }
-
-h1,h2,h3,h4{
-    margin: 0;
-    padding: 0;
+h1{
+    font-size: rem-calc(54);
+    line-height: rem-calc(66);
+    font-weight: 400;
 }
+h2{
+    font-size: rem-calc(34);
+    line-height: rem-calc(42);
+    font-weight: 400;
 
+}
+h3{
+    font-size: rem-calc(30);
+    line-height: rem-calc(37);
+    font-weight: 700;
+
+}
 p{
-    margin: 0;
-    padding: 0;
-}
-
-.section-title{
+    font-size: rem-calc(20);
+    line-height: rem-calc(24);
     font-weight: 300;
+
 }

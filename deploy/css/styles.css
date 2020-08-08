@@ -370,25 +370,46 @@ ul li {
 ============= */
 body {
   font-family: "Montserrat", sans-serif;
+  color: #C03924;
+  z-index: 100;
 }
 
-h1, h2, h3, h4 {
-  margin: 0;
-  padding: 0;
+h1 {
+  font-size: 3.375rem;
+  line-height: 4.125rem;
+  font-weight: 400;
+}
+
+h2 {
+  font-size: 2.125rem;
+  line-height: 2.625rem;
+  font-weight: 400;
+}
+
+h3 {
+  font-size: 1.875rem;
+  line-height: 2.3125rem;
+  font-weight: 700;
 }
 
 p {
-  margin: 0;
-  padding: 0;
-}
-
-.section-title {
+  font-size: 1.25rem;
+  line-height: 1.5rem;
   font-weight: 300;
 }
 
 /* =============
     Buttons
 ============= */
+button {
+  background-color: none;
+  border-color: #C03924;
+  border-width: 2px;
+  border-radius: 27px;
+  padding: 10px 20px;
+  color: #C03924;
+}
+
 /* =============
     Forms
 ============= */
@@ -418,4 +439,29 @@ textarea {
 ============= */
 /* =============
     Section 1
+============= */
+#section-1 {
+  margin: 5vw;
+}
+#section-1 #br1 {
+  background-color: #FBC6AC;
+  padding: 20vh;
+  margin: 0px 0 0 -10vw;
+  z-index: 10;
+}
+#section-1 #br2 {
+  background-color: #FBC6AC;
+  padding: 60px;
+  margin: 100px -10vw 0 0;
+  z-index: 10;
+}
+#section-1 #header h1 {
+  margin-top: -70vh;
+}
+#section-1 button {
+  margin-top: 5vh;
+}
+
+/* =============
+    Gallery
 ============= */
