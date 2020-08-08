@@ -7,14 +7,22 @@ body{
     z-index: 90;
 }
 h1{
-    font-size: rem-calc(54);
+    font-size: rem-calc(45);
     line-height: rem-calc(66);
     font-weight: 400;
+    @include md{
+    font-size: rem-calc(54);
+    line-height: rem-calc(66);
+    }
 }
 h2{
-    font-size: rem-calc(34);
+    font-size: rem-calc(30);
     line-height: rem-calc(42);
     font-weight: 400;
+    @include md{
+    font-size: rem-calc(34);
+    line-height: rem-calc(42);
+    }
 
 }
 h3{

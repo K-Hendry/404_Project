@@ -3,6 +3,9 @@
 ============= */
 #section-1{
 margin: 0 5vw;
+@include md{
+    margin: 0 7vw;
+}
 #br1{
     //background-color: $peach;
     //padding: 20vh;
@@ -18,6 +21,9 @@ margin: 0 5vw;
 }
 #stamp{
     margin-left: 30vw;
+    @include md{
+        margin-left: 55vw;
+    }
     #img{
         
     }
@@ -31,20 +37,39 @@ margin: 0 5vw;
     height: 45vh;
     margin-top: 5vh;
     width: 100%;
+    @include md{
+        width: 70%;
+        margin-top: -75vh;
+        height: 39vh;
+    }
 }
 #header{
     h1{
         margin-top: 0;
+        @include md{
+            margin-left: 40vw;
+            margin-top: 45vh;
+        }
     }
+   
 }
-#paragraph1{
-    p{
-
+#paragraphs{
+    @include md{
+        margin-top: 50vh;
+        display: grid;
+        grid-template-columns: 2(1fr);
+        grid-template-areas: "p1 p2";
+        gap: 4vw;
     }
-}
-#paragraph2{
-    p{
-        
+    #p1{
+        p{
+    
+        }
+    }
+    #p2{
+        p{
+            
+        }
     }
 }
 button{
