@@ -371,7 +371,7 @@ ul li {
 body {
   font-family: "Montserrat", sans-serif;
   color: #C03924;
-  z-index: 100;
+  z-index: 90;
 }
 
 h1 {
@@ -441,25 +441,26 @@ textarea {
     Section 1
 ============= */
 #section-1 {
-  margin: 5vw;
+  margin: 0 5vw;
 }
-#section-1 #br1 {
-  background-color: #FBC6AC;
-  padding: 20vh;
-  margin: 0px 0 0 -10vw;
-  z-index: 10;
+#section-1 #stamp {
+  margin-left: 30vw;
 }
-#section-1 #br2 {
-  background-color: #FBC6AC;
-  padding: 60px;
-  margin: 100px -10vw 0 0;
-  z-index: 10;
+#section-1 #dog {
+  background-image: url("../img/section1/bleh.jpg");
+  background-position: 50% 5%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 45vh;
+  margin-top: 5vh;
+  width: 100%;
 }
 #section-1 #header h1 {
-  margin-top: -70vh;
+  margin-top: 0;
 }
 #section-1 button {
   margin-top: 5vh;
+  margin-left: 25vw;
 }
 
 /* =============
