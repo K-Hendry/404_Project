@@ -402,12 +402,22 @@ h3 {
   font-size: 1.875rem;
   line-height: 2.3125rem;
   font-weight: 700;
+  text-align: center;
 }
 
 p {
   font-size: 1.25rem;
   line-height: 1.5rem;
   font-weight: 300;
+}
+
+li {
+  font-size: 1.25rem;
+}
+@media (min-width: 768px) {
+  li {
+    font-size: 1.5625rem;
+  }
 }
 
 /* =============
@@ -453,6 +463,21 @@ header {
 /* =============
     Footer
 ============= */
+footer {
+  background-color: #FBC6AC;
+  height: 20vh;
+}
+footer h3 {
+  padding-top: 5vh;
+}
+footer ul {
+  margin-left: 27.5vw;
+  width: 50vw;
+  display: grid;
+  grid-template-columns: 4 1fr;
+  grid-template-areas: "icon1 icon2 icon3 icon4";
+}
+
 /* =============
     Section 1
 ============= */
@@ -533,7 +558,12 @@ header {
     display: grid;
     grid-template-columns: 2 1fr;
     grid-template-rows: 3 1fr;
-    column-gap: 10%;
+    column-gap: 5%;
+  }
+}
+@media (min-width: 992px) {
+  #gallery div ul {
+    grid-template-columns: 60% 35%;
   }
 }
 #gallery div ul #g1 {
@@ -550,7 +580,16 @@ header {
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row-start: 1;
-    grid-row-end: 2;
+    grid-row-end: 3;
+  }
+}
+@media (min-width: 992px) {
+  #gallery div ul #g1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    height: 95%;
   }
 }
 #gallery div ul #g2 {
@@ -567,6 +606,14 @@ header {
     grid-column-start: 1;
     grid-column-end: 1;
     grid-row-start: 3;
+    grid-row-end: 4;
+  }
+}
+@media (min-width: 992px) {
+  #gallery div ul #g2 {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 2;
     grid-row-end: 3;
   }
 }
@@ -584,6 +631,29 @@ header {
     grid-column-start: 2;
     grid-column-end: 2;
     grid-row-start: 3;
-    grid-row-end: 3;
+    grid-row-end: 4;
+  }
+}
+@media (min-width: 992px) {
+  #gallery div ul #g3 {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+}
+#gallery button {
+  margin-top: 10%;
+  margin-left: 25%;
+}
+@media (min-width: 768px) {
+  #gallery button {
+    margin-top: 10%;
+    margin-left: 40%;
+  }
+}
+@media (min-width: 992px) {
+  #gallery button {
+    margin-top: 5%;
   }
 }

@@ -12,7 +12,11 @@
                 display: grid;
                 grid-template-columns: 2(1fr);
                 grid-template-rows: 3(1fr);
-                column-gap: 10%;
+                column-gap: 5%;
+            }
+            @include lg{
+                grid-template-columns: 60% 35%;
+
             }
             #g1 {
                 background-image: url('../img/gallery/g1.jpg');
@@ -26,7 +30,14 @@
                     grid-column-start: 1;
                     grid-column-end: 3;
                     grid-row-start: 1;
-                    grid-row-end: 2;
+                    grid-row-end: 3;
+                }
+                @include lg{
+                    grid-column-start: 1;
+                    grid-column-end: 2;
+                    grid-row-start: 1;
+                    grid-row-end: 3;
+                    height: 95%;
                 }
             }
 
@@ -42,6 +53,12 @@
                     grid-column-start: 1;
                     grid-column-end: 1;
                     grid-row-start: 3;
+                    grid-row-end: 4;
+                }
+                @include lg{
+                    grid-column-start: 2;
+                    grid-column-end: 2;
+                    grid-row-start: 2;
                     grid-row-end: 3;
                 }
             }
@@ -58,9 +75,28 @@
                     grid-column-start: 2;
                     grid-column-end: 2;
                     grid-row-start: 3;
-                    grid-row-end: 3;
+                    grid-row-end: 4;
+                }
+                @include lg{
+                    grid-column-start: 2;
+                    grid-column-end: 2;
+                    grid-row-start: 1;
+                    grid-row-end: 2;
                 }
             }
+        }
+    
+    }
+    button{
+        margin-top: 10%;
+        margin-left: 25%;
+        @include md{
+        margin-top: 10%;
+        margin-left: 40%;
+        }
+        @include lg{
+        margin-top: 5%;
+
         }
     }
 }
