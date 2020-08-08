@@ -19,6 +19,14 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"/deploy/error-page.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/error-page.html",
+		"oF": 0
+		},
 	"/deploy/img/gallery/g1.jpg": {
 		"ft": 16384,
 		"iS": 76591,
@@ -27,7 +35,7 @@
 		"oAP": "/deploy/img/gallery/g1.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/deploy/img/gallery/g2.jpg": {
@@ -38,7 +46,7 @@
 		"oAP": "/deploy/img/gallery/g2.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/deploy/img/gallery/g3.jpg": {
@@ -49,7 +57,7 @@
 		"oAP": "/deploy/img/gallery/g3.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/deploy/img/section1/bleh.jpg": {
@@ -60,7 +68,7 @@
 		"oAP": "/deploy/img/section1/bleh.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/deploy/img/section1/stamp.png": {
@@ -73,6 +81,16 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 100
+		},
+	"/deploy/img/section1/stamp.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/section1/stamp.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
 		},
 	"/deploy/index.html": {
 		"cB": 0,
@@ -92,6 +110,22 @@
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
+		},
+	"/dev/error-page-content.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/error-page-content.html",
+		"oF": 0
+		},
+	"/dev/error-page.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/error-page.html",
+		"oF": 2
 		},
 	"/dev/footer.kit": {
 		"cB": 0,

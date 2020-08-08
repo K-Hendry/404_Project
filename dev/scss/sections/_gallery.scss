@@ -2,101 +2,140 @@
     Gallery
 ============= */
 #gallery {
-    div {
+    #gallery-container {
         margin: 0 5vw;
-@include md{
-    margin: 0 7vw;
-}
-        ul {
-            @include md{
-                display: grid;
-                grid-template-columns: 2(1fr);
-                grid-template-rows: 3(1fr);
-                column-gap: 5%;
-            }
-            @include lg{
-                grid-template-columns: 60% 35%;
 
-            }
-            #g1 {
-                background-image: url('../img/gallery/g1.jpg');
-                background-position: 50% 5%;
-                background-repeat: no-repeat;
-                background-size: cover;
-                height: 45vh;
-                margin-top: 5vh;
-                width: 100%;
-                @include md{
-                    grid-column-start: 1;
-                    grid-column-end: 3;
-                    grid-row-start: 1;
-                    grid-row-end: 3;
-                }
-                @include lg{
-                    grid-column-start: 1;
-                    grid-column-end: 2;
-                    grid-row-start: 1;
-                    grid-row-end: 3;
-                    height: 95%;
-                }
-            }
-
-            #g2 {
-                background-image: url('../img/gallery/g2.jpg');
-                background-position: 50% 5%;
-                background-repeat: no-repeat;
-                background-size: cover;
-                height: 45vh;
-                margin-top: 5vh;
-                width: 100%;
-                @include md{
-                    grid-column-start: 1;
-                    grid-column-end: 1;
-                    grid-row-start: 3;
-                    grid-row-end: 4;
-                }
-                @include lg{
-                    grid-column-start: 2;
-                    grid-column-end: 2;
-                    grid-row-start: 2;
-                    grid-row-end: 3;
-                }
-            }
-
-            #g3 {
-                background-image: url('../img/gallery/g3.jpg');
-                background-position: 50% 5%;
-                background-repeat: no-repeat;
-                background-size: cover;
-                height: 45vh;
-                margin-top: 5vh;
-                width: 100%;
-                @include md{
-                    grid-column-start: 2;
-                    grid-column-end: 2;
-                    grid-row-start: 3;
-                    grid-row-end: 4;
-                }
-                @include lg{
-                    grid-column-start: 2;
-                    grid-column-end: 2;
-                    grid-row-start: 1;
-                    grid-row-end: 2;
-                }
-            }
+        @include md {
+            margin: 0 7vw;
+            padding-bottom: 40px;
         }
+
+
+
+        #gallery-photos {
+            @include md {
+                padding-bottom: 20px;
+            }
+
+            ul {
+                @include md {
+                    display: grid;
+                    grid-template-columns: 2(1fr);
+                    grid-template-rows: 3(1fr);
+                    column-gap: 20px;
+                }
     
-    }
-    button{
-        margin-top: 10%;
-        margin-left: 25%;
-        @include md{
-        margin-top: 10%;
-        margin-left: 40%;
+                @include lg {
+                    grid-template-columns: 60% 35%;
+    
+                }
+    
+                #g1 {
+                    background-image: url('../img/gallery/g1.jpg');
+                    background-position: 50% 5%;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    height: 45vh;
+                    margin-top: 5vh;
+                    width: 100%;
+    
+                    @include md {
+                        grid-column-start: 1;
+                        grid-column-end: 3;
+                        grid-row-start: 1;
+                        grid-row-end: 3;
+                    }
+    
+                    @include lg {
+                        grid-column-start: 1;
+                        grid-column-end: 2;
+                        grid-row-start: 1;
+                        grid-row-end: 3;
+                        height: 95%;
+                    }
+                }
+    
+                #g2 {
+                    background-image: url('../img/gallery/g2.jpg');
+                    background-position: 50% 5%;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    height: 45vh;
+                    margin-top: 5vh;
+                    width: 100%;
+    
+                    @include md {
+                        grid-column-start: 1;
+                        grid-column-end: 1;
+                        grid-row-start: 3;
+                        grid-row-end: 4;
+                    }
+    
+                    @include lg {
+                        grid-column-start: 2;
+                        grid-column-end: 2;
+                        grid-row-start: 2;
+                        grid-row-end: 3;
+                    }
+                }
+    
+                #g3 {
+                    background-image: url('../img/gallery/g3.jpg');
+                    background-position: 50% 5%;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    height: 45vh;
+                    margin-top: 5vh;
+                    width: 100%;
+    
+                    @include md {
+                        grid-column-start: 2;
+                        grid-column-end: 2;
+                        grid-row-start: 3;
+                        grid-row-end: 4;
+                    }
+    
+                    @include lg {
+                        grid-column-start: 2;
+                        grid-column-end: 2;
+                        grid-row-start: 1;
+                        grid-row-end: 2;
+                    }
+                }
+            }
+            
         }
-        @include lg{
-        margin-top: 5%;
 
+        #button-2 {
+            margin-top: 30px;
+
+            @include md {
+                margin-left: 5vw;
+            }
+    
+            a {
+                // margin-top: 50px;
+                margin-left: 25vw;
+                // display: block;
+                // margin-left: auto;
+                // margin-right: auto;
+                border: 2px solid $red;
+                padding: 12px 20px;
+                border-radius: 30px;
+                color: $red;
+            }
+    
+            a:link,
+            a:visited {
+                text-decoration: none;
+            }
+    
+            a:hover,
+            a:active {
+                color: $white;
+                background-color: $red;
+                transition: 0.4s;
+            }
         }
     }
 }
