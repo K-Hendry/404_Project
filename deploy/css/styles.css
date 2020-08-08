@@ -501,16 +501,89 @@ header {
   #section-1 #paragraphs {
     margin-top: 50vh;
     display: grid;
-    grid-template-columns: 2 1fr;
+    grid-template-columns: 45% 45%;
     grid-template-areas: "p1 p2";
-    gap: 4vw;
+    column-gap: 10%;
   }
 }
 #section-1 button {
   margin-top: 5vh;
   margin-left: 25vw;
 }
+@media (min-width: 768px) {
+  #section-1 button {
+    margin-top: 0;
+    margin-left: 65%;
+  }
+}
 
 /* =============
     Gallery
 ============= */
+#gallery div {
+  margin: 0 5vw;
+}
+@media (min-width: 768px) {
+  #gallery div {
+    margin: 0 7vw;
+  }
+}
+@media (min-width: 768px) {
+  #gallery div ul {
+    display: grid;
+    grid-template-columns: 2 1fr;
+    grid-template-rows: 3 1fr;
+    column-gap: 10%;
+  }
+}
+#gallery div ul #g1 {
+  background-image: url("../img/gallery/g1.jpg");
+  background-position: 50% 5%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 45vh;
+  margin-top: 5vh;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  #gallery div ul #g1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+}
+#gallery div ul #g2 {
+  background-image: url("../img/gallery/g2.jpg");
+  background-position: 50% 5%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 45vh;
+  margin-top: 5vh;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  #gallery div ul #g2 {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 3;
+    grid-row-end: 3;
+  }
+}
+#gallery div ul #g3 {
+  background-image: url("../img/gallery/g3.jpg");
+  background-position: 50% 5%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 45vh;
+  margin-top: 5vh;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  #gallery div ul #g3 {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 3;
+  }
+}

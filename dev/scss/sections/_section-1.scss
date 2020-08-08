@@ -57,9 +57,9 @@ margin: 0 5vw;
     @include md{
         margin-top: 50vh;
         display: grid;
-        grid-template-columns: 2(1fr);
+        grid-template-columns: 45% 45%;
         grid-template-areas: "p1 p2";
-        gap: 4vw;
+        column-gap: 10%;
     }
     #p1{
         p{
@@ -75,6 +75,10 @@ margin: 0 5vw;
 button{
     margin-top: 5vh;
     margin-left: 25vw;
+    @include md{
+        margin-top: 0;
+        margin-left: 65%;
+    }
 }
 
 }
