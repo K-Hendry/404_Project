@@ -195,10 +195,29 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/dev/js/scripts-min.js",
+		"oAP": "/deploy/js/scripts-min.js",
+		"oF": 2,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/scrollTrigger.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/scrollTrigger-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
+		},
+	"/dev/scripts.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/scripts.html",
+		"oF": 0
 		},
 	"/dev/scss/base/_base.scss": {
 		"aP": 0,
