@@ -1,3 +1,78 @@
 /* =============
     Error Page
 ============= */
+#error-page {
+    display: grid;
+    grid-template-columns: 10px auto 10px;
+    grid-template-areas: ". content .";
+
+    #error-container {
+        grid-area: content;
+
+        #dog-img {
+            #state-1 {
+                display: grid;
+                place-items: center;
+                position: fixed;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                width: 100%;
+                height: 100vh;
+                z-index: 999;
+                margin-top: -5vh;
+
+                img {
+                    display: block;
+                    margin: auto;
+                }
+            }
+
+            #state-2 {
+                display: none;
+            }
+
+            #state-3 {
+                display: none;
+            }
+        }
+
+        #running-text {
+            display: grid;
+            position: fixed;
+            margin-top: 38vh;
+            overflow: hidden;
+
+            h1 {
+                font-family: 'Roboto Mono', monospace;
+                text-align: center;
+                font-size: rem-calc(50);
+            }
+        }
+
+        #error-text {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            position: fixed;
+            margin-left: 44vw;
+            margin-top: 58vh;
+
+            h1 {
+                font-family: 'Roboto Mono', monospace;
+                text-align: center;
+            }
+        }
+
+        #scroll-text {
+            color: $pastel-orange;
+            margin-top: 90vh;
+
+            p {
+                font-family: 'Roboto Mono', monospace;
+                font-weight: 400;
+                text-align: center;
+            }
+        }
+    }
+}
