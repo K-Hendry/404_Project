@@ -7,7 +7,7 @@ ScrollTrigger.create({
     animation: DogTimeline,
     toggleActions: "restart none none none",
     trigger: "#state-1",
-    start: "bottom",
+    start: "bottom 60%",
     // end: "bottom 50%",
     markers: true,
     id: "dog-img",
