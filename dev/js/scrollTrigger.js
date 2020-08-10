@@ -11,5 +11,4 @@ ScrollTrigger.create({
     end: "bottom 50%",
     markers: true,
     id: "dog-img"
-    // scrub: 1
 });
