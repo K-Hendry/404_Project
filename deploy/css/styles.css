@@ -611,7 +611,7 @@ footer ul li {
 #section-1 #section-1-container #banner #header {
   z-index: 150;
   position: absolute;
-  margin-top: 330px;
+  margin-top: 220px;
 }
 #section-1 #section-1-container #banner #header h1 {
   font-size: 2.5rem;
@@ -857,7 +857,12 @@ footer ul li {
 #error-page #error-container #running-text h1 {
   font-family: "Roboto Mono", monospace;
   text-align: center;
-  font-size: 3.125rem;
+  font-size: 1.875rem;
+}
+@media (min-width: 768px) {
+  #error-page #error-container #running-text h1 {
+    font-size: 3.125rem;
+  }
 }
 #error-page #error-container #error-text {
   display: grid;

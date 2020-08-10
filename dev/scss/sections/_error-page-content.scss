@@ -10,6 +10,7 @@
         grid-area: content;
 
         #dog-img {
+
             #state-1 {
                 display: grid;
                 place-items: center;
@@ -67,7 +68,10 @@
             h1 {
                 font-family: 'Roboto Mono', monospace;
                 text-align: center;
-                font-size: rem-calc(50);
+                font-size: rem-calc(30);
+                @include md{
+                    font-size: rem-calc(50);
+                }
             }
         }
 
