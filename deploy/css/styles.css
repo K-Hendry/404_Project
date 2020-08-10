@@ -514,13 +514,13 @@ footer ul li {
 @media (min-width: 1200px) {
   #section-1 {
     display: grid;
-    grid-template-columns: auto 1200px auto;
     grid-template-areas: ". content .";
+    grid-template-columns: auto 1200px auto;
   }
 }
 #section-1 #section-1-container {
-  position: relative;
   grid-area: content;
+  position: relative;
 }
 @media (min-width: 768px) {
   #section-1 #section-1-container {
@@ -536,11 +536,11 @@ footer ul li {
   }
 }
 #section-1 #section-1-container #banner #stamp {
-  margin-top: -100px;
   margin-left: 60vw;
-  z-index: 10000;
-  position: absolute;
+  margin-top: -100px;
   overflow: hidden;
+  position: absolute;
+  z-index: 10000;
 }
 #section-1 #section-1-container #banner #stamp img {
   width: 170px;
@@ -552,9 +552,9 @@ footer ul li {
 }
 @media (min-width: 1200px) {
   #section-1 #section-1-container #banner #stamp img {
-    width: 240px;
     margin-left: -10px;
     overflow: visible;
+    width: 240px;
   }
 }
 @media (min-width: 768px) {
@@ -566,11 +566,11 @@ footer ul li {
 @media (min-width: 768px) {
   #section-1 #section-1-container #banner #box1 {
     background-color: #FBC6AC;
-    padding: 180px;
-    margin-top: -20px;
     margin-left: -100px;
     margin-right: 80px;
+    margin-top: -20px;
     overflow: hidden;
+    padding: 180px;
     z-index: -10000;
   }
 }
@@ -582,12 +582,12 @@ footer ul li {
 }
 #section-1 #section-1-container #banner #dog {
   margin-top: 0px;
-  z-index: 0;
   position: relative;
+  z-index: 0;
 }
 #section-1 #section-1-container #banner #dog img {
-  object-fit: cover;
   height: 100%;
+  object-fit: cover;
   width: 100%;
 }
 @media (min-width: 768px) {
@@ -602,21 +602,21 @@ footer ul li {
 }
 @media (min-width: 768px) {
   #section-1 #section-1-container #banner #dog {
-    width: 70%;
-    margin-top: -40vh;
-    margin-left: 30px;
     height: 39vh;
+    margin-left: 30px;
+    margin-top: -40vh;
+    width: 70%;
   }
 }
 #section-1 #section-1-container #banner #header {
-  z-index: 150;
-  position: absolute;
   margin-top: 220px;
+  position: absolute;
+  z-index: 150;
 }
 #section-1 #section-1-container #banner #header h1 {
+  font-family: "Roboto Mono", monospace;
   font-size: 2.5rem;
   line-height: 2.8125rem;
-  font-family: "Roboto Mono", monospace;
 }
 @media (min-width: 768px) {
   #section-1 #section-1-container #banner #header {
@@ -626,30 +626,30 @@ footer ul li {
 }
 @media (min-width: 768px) {
   #section-1 #section-1-container #description #paragraphs {
-    margin-top: 23vh;
-    display: grid;
-    grid-template-columns: 45% 45%;
-    grid-template-areas: "p1 p2";
     column-gap: 10%;
+    display: grid;
+    grid-template-areas: "p1 p2";
+    grid-template-columns: 45% 45%;
+    margin-top: 23vh;
   }
 }
 #section-1 #section-1-container #description #paragraphs #p1 {
-  font-size: 1rem;
   color: #4F2E1C;
+  font-size: 1rem;
 }
 #section-1 #section-1-container #description #paragraphs #p2 {
-  font-size: 1rem;
   color: #4F2E1C;
+  font-size: 1rem;
 }
 #section-1 #section-1-container #description #button {
   margin-top: 30px;
 }
 #section-1 #section-1-container #description #button a {
-  margin-left: 30vw;
   border: 2px solid #C03924;
-  padding: 12px 20px;
   border-radius: 30px;
   color: #C03924;
+  margin-left: 30vw;
+  padding: 12px 20px;
 }
 #section-1 #section-1-container #description #button a:link,
 #section-1 #section-1-container #description #button a:visited {
@@ -657,8 +657,8 @@ footer ul li {
 }
 #section-1 #section-1-container #description #button a:hover,
 #section-1 #section-1-container #description #button a:active {
-  color: #fff;
   background-color: #C03924;
+  color: #fff;
   transition: 0.4s;
 }
 
@@ -799,74 +799,71 @@ footer ul li {
 ============= */
 #error-page {
   display: grid;
-  grid-template-columns: 10px auto 10px;
   grid-template-areas: ". content .";
+  grid-template-columns: 10px auto 10px;
 }
 #error-page #background {
   background-color: #fff;
-  padding: 1080px;
-  margin-top: -20px;
-  margin-left: -100px;
-  margin-right: 80px;
   overflow: hidden;
+  padding: 10080px;
   z-index: -10000;
 }
 #error-page #error-container {
   grid-area: content;
 }
 #error-page #error-container #dog-img #state-1 {
+  bottom: 0;
   display: grid;
+  height: 100vh;
+  left: 0;
+  margin-top: -5vh;
   place-items: center;
   position: fixed;
-  top: 0;
-  bottom: 0;
-  left: 0;
   right: 0;
+  top: 0;
   width: 100%;
-  height: 100vh;
   z-index: 999;
-  margin-top: -5vh;
 }
 #error-page #error-container #dog-img #state-1 img {
   display: block;
   margin: auto;
 }
 #error-page #error-container #dog-img #state-2 {
+  bottom: 0;
   display: grid;
+  height: 100vh;
+  left: 0;
+  margin-top: -5vh;
   place-items: center;
   position: fixed;
-  top: 0;
-  bottom: 0;
-  left: 0;
   right: 0;
+  top: 0;
   width: 100%;
-  height: 100vh;
   z-index: 998;
-  margin-top: -5vh;
 }
 #error-page #error-container #dog-img #state-3 {
+  bottom: 0;
   display: grid;
+  height: 100vh;
+  left: 0;
+  margin-top: -5vh;
   place-items: center;
   position: fixed;
-  top: 0;
-  bottom: 0;
-  left: 0;
   right: 0;
+  top: 0;
   width: 100%;
-  height: 100vh;
   z-index: 997;
-  margin-top: -5vh;
 }
 #error-page #error-container #running-text {
   display: grid;
-  position: fixed;
   margin-top: 38vh;
   overflow: hidden;
+  position: fixed;
 }
 #error-page #error-container #running-text h1 {
   font-family: "Roboto Mono", monospace;
-  text-align: center;
   font-size: 1.875rem;
+  text-align: center;
 }
 @media (min-width: 768px) {
   #error-page #error-container #running-text h1 {
@@ -876,9 +873,9 @@ footer ul li {
 #error-page #error-container #error-text {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  position: fixed;
   margin-left: 44vw;
   margin-top: 58vh;
+  position: fixed;
 }
 #error-page #error-container #error-text h1 {
   font-family: "Roboto Mono", monospace;

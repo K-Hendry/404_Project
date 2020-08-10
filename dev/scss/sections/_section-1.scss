@@ -2,9 +2,9 @@
     Section 1
 ============= */
 #section-1 {
+    // overflow: hidden;
     margin: 0 5vw;
     padding-top: 160px;
-    // overflow: hidden;
 
     @include md {
         margin: 0 7vw;
@@ -12,13 +12,13 @@
 
     @include xl {
         display: grid;
-        grid-template-columns: auto 1200px auto;
         grid-template-areas: ". content .";
+        grid-template-columns: auto 1200px auto;
     }
 
     #section-1-container {
-        position: relative;
         grid-area: content;
+        position: relative;
 
         @include md {
             padding-bottom: 60px;
@@ -33,12 +33,12 @@
             }
 
             #stamp {
-                margin-top: -100px;
-                margin-left: 60vw;
-                z-index: 10000;
-                position: absolute;
-                overflow: hidden;
                 // top: -10px;
+                margin-left: 60vw;
+                margin-top: -100px;
+                overflow: hidden;
+                position: absolute;
+                z-index: 10000;
 
                 img {
                     width: 170px;
@@ -48,10 +48,10 @@
                     }
 
                     @include xl {
-                        width: 240px;
+                        // padding: 200px;
                         margin-left: -10px;
                         overflow: visible;
-                        // padding: 200px;
+                        width: 240px;
                     }
                 }
 
@@ -59,18 +59,17 @@
                     margin-left: 55vw;
                     margin-top: -30px;
                 }
-
             }
 
             #box1 {
                 @include md {
                     // position: relative;
                     background-color: $peach;
-                    padding: 180px;
-                    margin-top: -20px;
                     margin-left: -100px;
                     margin-right: 80px;
+                    margin-top: -20px;
                     overflow: hidden;
+                    padding: 180px;
                     z-index: -10000;
                 }
 
@@ -82,12 +81,12 @@
 
             #dog {
                 margin-top: 0px;
-                z-index: 0;
                 position: relative;
+                z-index: 0;
 
                 img {
-                    object-fit: cover;
                     height: 100%;
+                    object-fit: cover;
                     width: 100%;
 
                     @include md {
@@ -100,54 +99,53 @@
                 }
 
                 @include md {
-                    width: 70%;
                     // height: 150%;
-                    margin-top: -40vh;
-                    margin-left: 30px;
                     height: 39vh;
+                    margin-left: 30px;
+                    margin-top: -40vh;
+                    width: 70%;
                 }
             }
 
             #header {
-                z-index: 150;
-                position: absolute;
                 margin-top: 220px;
+                position: absolute;
+                z-index: 150;
 
                 h1 {
-                    font-size: rem-calc(40);
-                    line-height: rem-calc(45);
-                    font-family: 'Roboto Mono', monospace;
                     // margin-top: 0;
                     // z-index: 150;
+                    font-family: 'Roboto Mono', monospace;
+                    font-size: rem-calc(40);
+                    line-height: rem-calc(45);
                 }
 
                 @include md {
+                    // z-index: 100;
                     margin-left: 40vw;
                     margin-top: 73px;
-                    // z-index: 100;
                 }
-
             }
         }
 
         #description {
             #paragraphs {
                 @include md {
-                    margin-top: 23vh;
-                    display: grid;
-                    grid-template-columns: 45% 45%;
-                    grid-template-areas: "p1 p2";
                     column-gap: 10%;
+                    display: grid;
+                    grid-template-areas: "p1 p2";
+                    grid-template-columns: 45% 45%;
+                    margin-top: 23vh;
                 }
 
                 #p1 {
-                    font-size: rem-calc(16);
                     color: $brown;
+                    font-size: rem-calc(16);
                 }
 
                 #p2 {
-                    font-size: rem-calc(16);
                     color: $brown;
+                    font-size: rem-calc(16);
                 }
             }
 
@@ -155,15 +153,15 @@
                 margin-top: 30px;
 
                 a {
-                    // margin-top: 50px;
-                    margin-left: 30vw;
                     // display: block;
                     // margin-left: auto;
                     // margin-right: auto;
+                    // margin-top: 50px;
                     border: 2px solid $red;
-                    padding: 12px 20px;
                     border-radius: 30px;
                     color: $red;
+                    margin-left: 30vw;
+                    padding: 12px 20px;
                 }
 
                 a:link,
@@ -173,14 +171,11 @@
 
                 a:hover,
                 a:active {
-                    color: $white;
                     background-color: $red;
+                    color: $white;
                     transition: 0.4s;
                 }
             }
-
         }
-
     }
-
 }
