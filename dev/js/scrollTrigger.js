@@ -32,7 +32,8 @@ ScrollTrigger.create({
     Logo Animation
 ======================== */
 gsap.to("#running-text", {
-    duration: 5,
-    xPercent: 200,
-    repeat: -1
+    duration: 7,
+    xPercent: 270,
+    repeat: -1,
+    repeatDelay: -3
 });
