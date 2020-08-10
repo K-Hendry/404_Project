@@ -2,15 +2,16 @@
     Error Page
 ============= */
 #error-page {
-    #background{
-        background-color: $white;
-                    padding: 1080px;
-                    margin-top: -20px;
-                    margin-left: -100px;
-                    margin-right: 80px;
-                    overflow: hidden;
-                    z-index: -10000;
-    }
+    // #background {
+    //     background-color: $white;
+    //     padding: 1080px;
+    //     margin-top: -20px;
+    //     margin-left: -100px;
+    //     margin-right: 80px;
+    //     overflow: hidden;
+    //     z-index: -10000;
+    // }
+
     display: grid;
     grid-template-columns: 10px auto 10px;
     grid-template-areas: ". content .";
@@ -78,7 +79,8 @@
                 font-family: 'Roboto Mono', monospace;
                 text-align: center;
                 font-size: rem-calc(30);
-                @include md{
+
+                @include md {
                     font-size: rem-calc(50);
                 }
             }
