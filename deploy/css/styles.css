@@ -802,6 +802,15 @@ footer ul li {
   grid-template-columns: 10px auto 10px;
   grid-template-areas: ". content .";
 }
+<<<<<<< Updated upstream
+=======
+#error-page #background {
+  background-color: #fff;
+  padding: 100vh;
+  overflow: hidden;
+  z-index: -10000;
+}
+>>>>>>> Stashed changes
 #error-page #error-container {
   grid-area: content;
 }
@@ -877,7 +886,10 @@ footer ul li {
 }
 #error-page #error-container #scroll-text {
   color: #F8BD7B;
+  overflow: hidden;
+  position: fixed;
   margin-top: 90vh;
+  margin-left: 25vw;
 }
 #error-page #error-container #scroll-text p {
   font-family: "Roboto Mono", monospace;

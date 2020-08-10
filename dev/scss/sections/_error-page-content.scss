@@ -2,6 +2,7 @@
     Error Page
 ============= */
 #error-page {
+<<<<<<< Updated upstream
     // #background {
     //     background-color: $white;
     //     padding: 1080px;
@@ -11,6 +12,17 @@
     //     overflow: hidden;
     //     z-index: -10000;
     // }
+=======
+    #background {
+        background-color: $white;
+        padding: 100vh;
+        //     margin-top: -20px;
+        //     margin-left: -100px;
+        //     margin-right: 80px;
+        overflow: hidden;
+        z-index: -10000;
+    }
+>>>>>>> Stashed changes
 
     display: grid;
     grid-template-columns: 10px auto 10px;
@@ -101,7 +113,10 @@
 
         #scroll-text {
             color: $pastel-orange;
+            overflow: hidden;
+            position: fixed;
             margin-top: 90vh;
+            margin-left: 25vw;
 
             p {
                 font-family: 'Roboto Mono', monospace;

@@ -1,1 +1,1 @@
-gsap.registerPlugin(ScrollTrigger);const DogTimeline=gsap.timeline();DogTimeline.to(".dogfaces",{duration:3,alpha:0,stagger:2}),ScrollTrigger.create({animation:DogTimeline,toggleActions:"restart none none none",trigger:"#state-1",start:"bottom",markers:!0,id:"dog-img",scrub:1});
+gsap.registerPlugin(ScrollTrigger);const DogTimeline=gsap.timeline();DogTimeline.to(".dogfaces",{duration:10,alpha:0}),ScrollTrigger.create({animation:DogTimeline,toggleActions:"restart none none none",trigger:"#state-1",endtrigger:"#end-trigger",start:"bottom 80%",markers:!0,id:"dog-img",scrub:3});
