@@ -618,10 +618,22 @@ footer ul li {
   font-size: 2.5rem;
   line-height: 2.8125rem;
 }
+@media (min-width: 992px) {
+  #section-1 #section-1-container #banner #header h1 {
+    font-size: 3.75rem;
+    line-height: 3.75rem;
+  }
+}
 @media (min-width: 768px) {
   #section-1 #section-1-container #banner #header {
     margin-left: 40vw;
     margin-top: 73px;
+  }
+}
+@media (min-width: 992px) {
+  #section-1 #section-1-container #banner #header {
+    margin-left: 40vw;
+    margin-top: 80px;
   }
 }
 @media (min-width: 768px) {

@@ -206,7 +206,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/deploy/js/scripts-min.js",
+		"oAP": "/deploy/scripts-min.js",
 		"oF": 2,
 		"sC": 3,
 		"tS": 0
@@ -1947,7 +1947,7 @@
 	"externalServerAddress": "http://localhost:8888",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
-	"jsCheckerReservedNamesString": "ScrollTrigger, gsap",
+	"jsCheckerReservedNamesString": "gsap, ScrollTrigger",
 	"jsHintFlags2": {
 		"asi": {
 			"active": 0,
