@@ -130,6 +130,17 @@
 		"oAP": "/deploy/index.html",
 		"oF": 0
 		},
+	"/deploy/js/gsap/DrawSVGPlugin.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/deploy/js/gsap/DrawSVGPlugin.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"/deploy/js/scripts-min.js": {
 		"bF": 0,
 		"ft": 64,
@@ -137,6 +148,17 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "/deploy/js/scripts-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/deploy/scripts-min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/deploy/scripts-min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -200,13 +222,24 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/dev/js/scripts-min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/dev/js/scripts-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"/dev/js/scripts.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/deploy/scripts-min.js",
+		"oAP": "/deploy/js/scripts-min.js",
 		"oF": 2,
 		"sC": 3,
 		"tS": 0
@@ -1947,7 +1980,7 @@
 	"externalServerAddress": "http://localhost:8888",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
-	"jsCheckerReservedNamesString": "gsap, ScrollTrigger",
+	"jsCheckerReservedNamesString": "ScrollTrigger, gsap",
 	"jsHintFlags2": {
 		"asi": {
 			"active": 0,
