@@ -17,14 +17,14 @@
 ======================== */
  const FourTimeline = gsap.timeline();
  gsap.set(".four",{alpha:0});
- FourTimeline.to(".four", {duration:7, alpha:1, stagger:4});
+ FourTimeline.to(".four", {duration:7, alpha:1, stagger:10});
  ScrollTrigger.create({
      animation: FourTimeline,
      toggleActions: "restart none none none",
     trigger: "#Number1",
     start: "top 70%",
     end: "bottom 30%",
-    //markers: true,
+    markers: true,
     id: "error-text",
     scrub: 1
 });
@@ -34,6 +34,6 @@
 gsap.to("#running-text", {
     duration: 30,
     xPercent: 600,
-    repeat: -1,
+    repeat: -1
     //repeatDelay: -3
 });
