@@ -16,7 +16,7 @@ dogFacesAnimation.to("#left-eye-pupil-bot", {duration: stateTwo, alpha: 1}, "sta
 ScrollTrigger.create({
     trigger: "#scroll-div",
     start: "bottom 90%",
-    // end: "bottom 30%",
+    //end: "bottom 30%",
     animation: dogFacesAnimation,
     toggleActions: "play none none none",
     markers: true,

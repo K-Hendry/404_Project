@@ -5,9 +5,6 @@
     #background {
         background-color: $white;
         padding: 1080px;
-        //     margin-top: -20px;
-        //     margin-left: -100px;
-        //     margin-right: 80px;
         overflow: hidden;
         z-index: -10000;
     }
@@ -21,59 +18,12 @@
 
         #dog-img {
 
-            // #state-1 {
-            //     display: grid;
-            //     place-items: center;
-            //     position: fixed;
-            //     top: 0;
-            //     bottom: 0;
-            //     left: 0;
-            //     right: 0;
-            //     width: 100%;
-            //     height: 100vh;
-            //     z-index: 999;
-            //     margin-top: -5vh;
-
-            //     img {
-            //         display: block;
-            //         margin: auto;
-            //     }
-            // }
-
-            // #state-2 {
-            //     display: grid;
-            //     place-items: center;
-            //     position: fixed;
-            //     top: 0;
-            //     bottom: 0;
-            //     left: 0;
-            //     right: 0;
-            //     width: 100%;
-            //     height: 100vh;
-            //     z-index: 998;
-            //     margin-top: -5vh;
-            // }
-
-            // #state-3 {
-            //     display: grid;
-            //     place-items: center;
-            //     position: fixed;
-            //     top: 0;
-            //     bottom: 0;
-            //     left: 0;
-            //     right: 0;
-            //     width: 100%;
-            //     height: 100vh;
-            //     z-index: 997;
-            //     margin-top: -5vh;
-            // }
-
             #dog-whole-svg {
-                // border: $red 1px solid;
                 display: block;
                 margin-left: 40vw;
                 margin-top: 30vh;
                 position: fixed;
+                z-index: 1000;
 
                 svg {
                     height: 242px;
@@ -83,8 +33,9 @@
         }
 
         #scroll-div {
-            height: 100vh;
+            height: 150vh;
         }
+
         #running-text {
             //display: grid;
             position: fixed;
@@ -110,7 +61,7 @@
             grid-template-columns: repeat(3, 1fr);
             position: fixed;
             margin-left: 44vw;
-            margin-top: 48vh;
+            margin-top: 65vh;
 
             h1 {
                 font-family: 'Roboto Mono', monospace;
@@ -120,7 +71,7 @@
 
         #scroll-text {
             color: $pastel-orange;
-            margin-top: 60vh;
+            margin-top: 90vh;
             position: relative;
 
             p {
@@ -131,31 +82,37 @@
         }
     }
 }
-#error-page2{
+
+#error-page2 {
     display: grid;
     grid-template-columns: 40% 60%;
     padding: 5vw;
     column-gap: 5%;
-    #sorry-text{
+    margin-top: 200vh;
+
+    #sorry-text {
         grid-column-start: 1;
         grid-row-start: 2;
     }
-    #dog2{
+
+    #dog2 {
         padding-top: 10%;
         place-items: center;
         grid-column-start: 2;
         grid-row-start: 2;
     }
-    #teary-eyes{
+
+    #teary-eyes {
         padding-top: 10%;
         place-items: center;
         grid-column-start: 2;
         grid-row-start: 2;
     }
-    #button{
+
+    #button {
         grid-column-start: 2;
         grid-row-start: 1;
-  
-}
-    
+
+    }
+
 }
