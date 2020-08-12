@@ -878,9 +878,11 @@ footer ul li {
 }
 
 #error-page2 {
+  border: 1pt red solid;
   display: grid;
   grid-template-columns: 40% 60%;
   padding: 5vw;
+  padding-top: 100vh;
   column-gap: 5%;
   margin-top: 200vh;
 }
