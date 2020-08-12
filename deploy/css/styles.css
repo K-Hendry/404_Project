@@ -823,6 +823,9 @@ footer ul li {
 #error-page #error-container {
   grid-area: content;
 }
+#error-page #error-container #dog-img #dog-whole-svg {
+  border: #C03924 1px solid;
+}
 #error-page #error-container #dog-img #dog-whole-svg svg {
   height: 242px;
   width: 294px;
