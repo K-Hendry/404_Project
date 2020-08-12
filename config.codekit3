@@ -35,6 +35,26 @@
 		"oAP": "/deploy/error-page.html",
 		"oF": 0
 		},
+	"/deploy/img/error-page/homeshibe.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/error-page/homeshibe.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/deploy/img/error-page/homeshibe2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/error-page/homeshibe2.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
 	"/deploy/img/error-page/shiba-1.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -270,6 +290,17 @@
 		"mi": 1,
 		"oA": 1,
 		"oAP": "/dev/js/scroll-trigger/scrollTrigger-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/scroll-trigger/second-half.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/scroll-trigger/second-half-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
