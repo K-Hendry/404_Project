@@ -824,7 +824,9 @@ footer ul li {
   grid-area: content;
 }
 #error-page #error-container #dog-img #dog-whole-svg {
-  border: #C03924 1px solid;
+  display: block;
+  margin-left: 40vw;
+  margin-top: 30vh;
 }
 #error-page #error-container #dog-img #dog-whole-svg svg {
   height: 242px;

@@ -130,17 +130,6 @@
 		"oAP": "/deploy/index.html",
 		"oF": 0
 		},
-	"/deploy/js/gsap/DrawSVGPlugin.min.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/deploy/js/gsap/DrawSVGPlugin.min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
 	"/deploy/js/scripts-min.js": {
 		"bF": 0,
 		"ft": 64,
@@ -148,28 +137,6 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "/deploy/js/scripts-min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/deploy/js/scrollTrigger-min.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/deploy/js/scrollTrigger-min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/deploy/scripts-min.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/deploy/scripts-min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0

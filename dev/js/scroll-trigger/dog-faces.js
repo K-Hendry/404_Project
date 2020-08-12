@@ -1,4 +1,4 @@
-console.log("page loads");
+// console.log("page loads");
 var dogFacesAnimation = gsap.timeline();
 
 dogFacesAnimation.from("#left-long-tear", {duration:5, alpha: 0, repeat: -1}, "start")
@@ -6,7 +6,7 @@ dogFacesAnimation.from("#left-long-tear", {duration:5, alpha: 0, repeat: -1}, "s
 
 
 ScrollTrigger.create({
-    trigger: "#shiba-whole",
+    trigger: "#shiba",
     start: "bottom 90%",
     animation: dogFacesAnimation,
     toggleActions: "restart none none none",

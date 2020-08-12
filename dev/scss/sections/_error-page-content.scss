@@ -69,7 +69,11 @@
             // }
 
             #dog-whole-svg {
-                border: $red 1px solid;
+                // border: $red 1px solid;
+                display: block;
+                margin-left: 40vw;
+                margin-top: 30vh;
+
                 svg {
                    height: 242px;
                    width: 294px; 
