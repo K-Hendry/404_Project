@@ -2050,7 +2050,7 @@
 	"externalServerAddress": "http://localhost:8888",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
-	"jsCheckerReservedNamesString": "ScrollTrigger, gsap",
+	"jsCheckerReservedNamesString": "ScrollTrigger, gsap, DrawSVGPlugin",
 	"jsHintFlags2": {
 		"asi": {
 			"active": 0,
