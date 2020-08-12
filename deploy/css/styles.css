@@ -828,10 +828,10 @@ footer ul li {
   width: 294px;
 }
 #error-page #error-container #running-text {
-  display: grid;
   position: fixed;
   margin-top: 38vh;
   overflow: hidden;
+  margin-left: -100vw;
 }
 #error-page #error-container #running-text h1 {
   font-family: "Roboto Mono", monospace;

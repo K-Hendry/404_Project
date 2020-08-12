@@ -77,10 +77,11 @@
         }
 
         #running-text {
-            display: grid;
+            //display: grid;
             position: fixed;
             margin-top: 38vh;
             overflow: hidden;
+            margin-left: -100vw;
 
             h1 {
                 font-family: 'Roboto Mono', monospace;
