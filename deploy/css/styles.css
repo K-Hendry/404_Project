@@ -837,10 +837,12 @@ footer ul li {
   font-family: "Roboto Mono", monospace;
   text-align: center;
   font-size: 1.875rem;
+  line-height: 1.875rem;
 }
 @media (min-width: 768px) {
   #error-page #error-container #running-text h1 {
     font-size: 3.125rem;
+    line-height: 3.125rem;
   }
 }
 #error-page #error-container #error-text {

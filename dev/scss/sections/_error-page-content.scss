@@ -86,9 +86,11 @@
                 font-family: 'Roboto Mono', monospace;
                 text-align: center;
                 font-size: rem-calc(30);
+                line-height: rem-calc(30);
 
                 @include md {
                     font-size: rem-calc(50);
+                    line-height: rem-calc(50);
                 }
             }
         }
