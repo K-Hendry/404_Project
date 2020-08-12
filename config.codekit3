@@ -152,6 +152,17 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/deploy/js/scrollTrigger-min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/deploy/js/scrollTrigger-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"/deploy/scripts-min.js": {
 		"bF": 0,
 		"ft": 64,
@@ -271,9 +282,9 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 1,
-		"oAP": "/dev/js/scroll-trigger/scrollTrigger-min.js",
-		"oF": 0,
+		"oA": 0,
+		"oAP": "/deploy/js/scrollTrigger-min.js",
+		"oF": 2,
 		"sC": 3,
 		"tS": 0
 		},
