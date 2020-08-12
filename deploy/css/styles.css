@@ -832,6 +832,9 @@ footer ul li {
   height: 242px;
   width: 294px;
 }
+#error-page #error-container #scroll-div {
+  height: 100vh;
+}
 #error-page #error-container #running-text {
   display: grid;
   position: fixed;

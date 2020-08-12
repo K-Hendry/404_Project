@@ -7,7 +7,8 @@ dogFacesAnimation.from("#left-long-tear", {duration:5, alpha: 0, repeat: -1}, "s
 
 ScrollTrigger.create({
     trigger: "#shiba",
-    start: "bottom 90%",
+    start: "bottom 70%",
+    // end: "bottom 30%",
     animation: dogFacesAnimation,
     toggleActions: "restart none none none",
     markers: true,
