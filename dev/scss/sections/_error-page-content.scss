@@ -3,6 +3,7 @@
 ============= */
 #error-page {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     // #background {
     //     background-color: $white;
     //     padding: 1080px;
@@ -19,6 +20,17 @@
         //     margin-top: -20px;
         //     margin-left: -100px;
         //     margin-right: 80px;
+        overflow: hidden;
+        z-index: -10000;
+    }
+>>>>>>> Stashed changes
+=======
+    #background {
+        background-color: $white;
+        padding: 1080px;
+        margin-top: -20px;
+        margin-left: -100px;
+        margin-right: 80px;
         overflow: hidden;
         z-index: -10000;
     }
