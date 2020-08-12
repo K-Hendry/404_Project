@@ -850,7 +850,7 @@ footer ul li {
   grid-template-columns: repeat(3, 1fr);
   position: fixed;
   margin-left: 44vw;
-  margin-top: 58vh;
+  margin-top: 48vh;
 }
 #error-page #error-container #error-text h1 {
   font-family: "Roboto Mono", monospace;
@@ -858,7 +858,8 @@ footer ul li {
 }
 #error-page #error-container #scroll-text {
   color: #F8BD7B;
-  margin-top: 90vh;
+  margin-top: 60vh;
+  position: relative;
 }
 #error-page #error-container #scroll-text p {
   font-family: "Roboto Mono", monospace;
