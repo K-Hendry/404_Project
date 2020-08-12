@@ -1,1 +1,5 @@
+<<<<<<< Updated upstream
 gsap.registerPlugin(ScrollTrigger);const DogTimeline=gsap.timeline();DogTimeline.to(".dogfaces",{duration:10,alpha:0}),ScrollTrigger.create({animation:DogTimeline,toggleActions:"restart none none none",trigger:"#state-1",endtrigger:"#end-trigger",start:"bottom 80%",markers:!0,id:"dog-img",scrub:3});
+=======
+gsap.registerPlugin(ScrollTrigger);const FourTimeline=gsap.timeline();gsap.set(".four",{alpha:0}),FourTimeline.to(".four",{duration:7,alpha:1,stagger:4}),ScrollTrigger.create({animation:FourTimeline,toggleActions:"restart none none none",trigger:"#Number1",start:"top 70%",end:"bottom 30%",id:"error-text",scrub:1}),gsap.to("#running-text",{duration:7,xPercent:270,repeat:-1,repeatDelay:-3});
+>>>>>>> Stashed changes
