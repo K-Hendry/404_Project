@@ -152,17 +152,6 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"/deploy/scripts-min.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/deploy/scripts-min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
 	"/dev/error-page-content.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -222,17 +211,6 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"/dev/js/scripts-min.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/dev/js/scripts-min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
 	"/dev/js/scripts.js": {
 		"bF": 0,
 		"ft": 64,
@@ -244,13 +222,46 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"/dev/js/scrollTrigger.js": {
+	"/dev/js/scroll-trigger/dog-faces.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "/dev/js/scrollTrigger-min.js",
+		"oAP": "/dev/js/scroll-trigger/dog-faces-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/scroll-trigger/error-number.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/scroll-trigger/error-number-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/scroll-trigger/running-text.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/scroll-trigger/running-text-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/scroll-trigger/scrollTrigger.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/scroll-trigger/scrollTrigger-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
