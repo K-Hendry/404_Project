@@ -825,7 +825,7 @@ footer ul li {
 }
 #error-page #error-container #dog-img #dog-whole-svg {
   display: block;
-  margin-left: 40vw;
+  margin-left: 35vw;
   margin-top: 30vh;
   position: fixed;
   z-index: 1000;
@@ -878,7 +878,6 @@ footer ul li {
 }
 
 #error-page2 {
-  border: 1pt red solid;
   display: grid;
   grid-template-columns: 40% 60%;
   padding: 5vw;
@@ -897,10 +896,21 @@ footer ul li {
   grid-row-start: 2;
 }
 #error-page2 #teary-eyes {
+  opacity: 1;
   padding-top: 10%;
   place-items: center;
   grid-column-start: 2;
   grid-row-start: 2;
+}
+#error-page2 #teary-eyes:hover {
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+#error-page2 #click-him {
+  grid-column-start: 2;
+  grid-row-start: 3;
+  padding-top: 5vh;
+  margin-left: -20vw;
 }
 #error-page2 #button {
   grid-column-start: 2;

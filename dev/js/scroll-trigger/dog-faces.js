@@ -19,7 +19,7 @@ ScrollTrigger.create({
     //end: "bottom 30%",
     animation: dogFacesAnimation,
     toggleActions: "play none none none",
-    markers: true,
+    //markers: true,
     id: "dog face"
 });
 
@@ -49,6 +49,6 @@ ScrollTrigger.create({
     // end: "bottom 30%",
     animation: dogFacesAnimationStateThree,
     toggleActions: "play none none none",
-    markers: true,
+    //markers: true,
     id: "dog face"
 });

@@ -10,7 +10,7 @@ ScrollTrigger.create({
    trigger: "#Number1",
    start: "top 50%",
    //end: "bottom 30%",
-   markers: true,
+   //markers: true,
    id: "error-text",
    scrub: 1
 });

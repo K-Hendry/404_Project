@@ -20,7 +20,7 @@
 
             #dog-whole-svg {
                 display: block;
-                margin-left: 40vw;
+                margin-left: 35vw;
                 margin-top: 30vh;
                 position: fixed;
                 z-index: 1000;
@@ -84,7 +84,7 @@
 }
 
 #error-page2 {
-    border: 1pt red solid;
+    //border: 1pt red solid;
     display: grid;
     grid-template-columns: 40% 60%;
     padding: 5vw;
@@ -105,16 +105,24 @@
     }
 
     #teary-eyes {
+        opacity: 1;
         padding-top: 10%;
         place-items: center;
         grid-column-start: 2;
         grid-row-start: 2;
     }
-
+    #teary-eyes:hover{
+        opacity: 0;
+        transition: opacity .5s;
+    }
+    #click-him{
+        grid-column-start: 2;
+        grid-row-start: 3;
+        padding-top: 5vh;
+        margin-left: -20vw;
+    }
     #button {
         grid-column-start: 2;
         grid-row-start: 1;
-
     }
-
 }

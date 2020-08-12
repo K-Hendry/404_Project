@@ -10,7 +10,7 @@ ScrollTrigger.create({
    trigger: "#error-page2",
    start: "top 50%",
    end: "top 50%",
-   markers: true,
+   //markers: true,
    id: "error-text",
    scrub: 1
 });
