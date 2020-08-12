@@ -122,3 +122,31 @@
         }
     }
 }
+#error-page2{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    padding: 5vw;
+    column-gap: 5%;
+    #sorry-text{
+        grid-column-start: 1;
+        grid-row-start: 2;
+    }
+    #dog2{
+        padding-top: 10%;
+        place-items: center;
+        grid-column-start: 2;
+        grid-row-start: 2;
+    }
+    #teary-eyes{
+        padding-top: 10%;
+        place-items: center;
+        grid-column-start: 2;
+        grid-row-start: 2;
+    }
+    #button{
+        grid-column-start: 2;
+        grid-row-start: 1;
+  
+}
+    
+}
