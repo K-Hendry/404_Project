@@ -2,15 +2,15 @@
     Error Page
 ============= */
 #error-page {
-     #background {
+    #background {
         background-color: $white;
-         padding: 1080px;
-    //     margin-top: -20px;
-    //     margin-left: -100px;
-    //     margin-right: 80px;
-         overflow: hidden;
-         z-index: -10000;
-     }
+        padding: 1080px;
+        //     margin-top: -20px;
+        //     margin-left: -100px;
+        //     margin-right: 80px;
+        overflow: hidden;
+        z-index: -10000;
+    }
 
     display: grid;
     grid-template-columns: 10px auto 10px;
@@ -69,13 +69,22 @@
             // }
 
             #dog-whole-svg {
+                // border: $red 1px solid;
+                display: block;
+                margin-left: 40vw;
+                margin-top: 30vh;
+                position: fixed;
+
                 svg {
-                   height: 242px;
-                   width: 294px; 
+                    height: 242px;
+                    width: 294px;
                 }
             }
         }
 
+        #scroll-div {
+            height: 100vh;
+        }
         #running-text {
             //display: grid;
             position: fixed;
