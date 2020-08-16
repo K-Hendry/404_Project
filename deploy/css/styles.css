@@ -905,6 +905,7 @@ footer ul li {
 #error-page2 #teary-eyes:hover {
   opacity: 0;
   transition: opacity 0.5s;
+  cursor: pointer;
 }
 #error-page2 #click-him {
   grid-column-start: 2;
