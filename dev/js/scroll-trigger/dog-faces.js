@@ -20,7 +20,8 @@ ScrollTrigger.create({
     animation: dogFacesAnimation,
     toggleActions: "play none none none",
     //markers: true,
-    id: "dog face"
+    id: "dog face",
+    scrub: 1
 });
 
 
@@ -50,5 +51,6 @@ ScrollTrigger.create({
     animation: dogFacesAnimationStateThree,
     toggleActions: "play none none none",
     //markers: true,
-    id: "dog face"
+    id: "dog face",
+    scrub: 1
 });

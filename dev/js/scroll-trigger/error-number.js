@@ -12,5 +12,5 @@ ScrollTrigger.create({
    //end: "bottom 30%",
    //markers: true,
    id: "error-text",
-   scrub: 1
+   scrub: 5
 });
