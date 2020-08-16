@@ -811,13 +811,13 @@ footer ul li {
 ============= */
 #error-page {
   display: grid;
-  grid-template-columns: 10px auto 10px;
   grid-template-areas: ". content .";
+  grid-template-columns: 10px auto 10px;
 }
 #error-page #background {
   background-color: #fff;
-  padding: 1080px;
   overflow: hidden;
+  padding: 1080px;
   z-index: -10000;
 }
 #error-page #error-container {
@@ -838,16 +838,16 @@ footer ul li {
   height: 150vh;
 }
 #error-page #error-container #running-text {
-  position: fixed;
+  margin-left: -100vw;
   margin-top: 38vh;
   overflow: hidden;
-  margin-left: -100vw;
+  position: fixed;
 }
 #error-page #error-container #running-text h1 {
   font-family: "Roboto Mono", monospace;
-  text-align: center;
   font-size: 1.875rem;
   line-height: 1.875rem;
+  text-align: center;
 }
 @media (min-width: 768px) {
   #error-page #error-container #running-text h1 {
@@ -858,9 +858,9 @@ footer ul li {
 #error-page #error-container #error-text {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  position: fixed;
   margin-left: 44vw;
   margin-top: 65vh;
+  position: fixed;
 }
 #error-page #error-container #error-text h1 {
   font-family: "Roboto Mono", monospace;
@@ -878,40 +878,41 @@ footer ul li {
 }
 
 #error-page2 {
+  column-gap: 5%;
   display: grid;
   grid-template-columns: 40% 60%;
+  margin-top: 200vh;
   padding: 5vw;
   padding-top: 100vh;
-  column-gap: 5%;
-  margin-top: 200vh;
 }
 #error-page2 #sorry-text {
   grid-column-start: 1;
   grid-row-start: 2;
 }
 #error-page2 #dog2 {
-  padding-top: 10%;
-  place-items: center;
   grid-column-start: 2;
   grid-row-start: 2;
+  padding-top: 10%;
+  place-items: center;
+  width: 60%;
 }
 #error-page2 #teary-eyes {
+  grid-column-start: 2;
+  grid-row-start: 2;
   opacity: 1;
   padding-top: 10%;
   place-items: center;
-  grid-column-start: 2;
-  grid-row-start: 2;
 }
 #error-page2 #teary-eyes:hover {
+  cursor: pointer;
   opacity: 0;
   transition: opacity 0.5s;
-  cursor: pointer;
 }
 #error-page2 #click-him {
   grid-column-start: 2;
   grid-row-start: 3;
-  padding-top: 5vh;
   margin-left: -20vw;
+  padding-top: 5vh;
 }
 #error-page2 #button {
   grid-column-start: 2;
