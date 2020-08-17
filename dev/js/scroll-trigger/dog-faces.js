@@ -15,13 +15,14 @@ dogFacesAnimation.to("#left-eye-pupil-bot", {duration: stateTwo, alpha: 1}, "sta
 
 ScrollTrigger.create({
     trigger: "#scroll-div",
-    start: "bottom 90%",
+    start: "bottom 100%",
     //end: "bottom 30%",
     animation: dogFacesAnimation,
     toggleActions: "play none none none",
-    //markers: true,
-    id: "dog face",
-    scrub: 1
+    // markers: true,
+    // scrub: 1,
+    id: "dog face"
+    
 });
 
 
@@ -50,7 +51,8 @@ ScrollTrigger.create({
     // end: "bottom 30%",
     animation: dogFacesAnimationStateThree,
     toggleActions: "play none none none",
-    //markers: true,
-    id: "dog face",
-    scrub: 1
+    // markers: true,
+    // scrub: 1,
+    id: "dog face 2"
+    
 });

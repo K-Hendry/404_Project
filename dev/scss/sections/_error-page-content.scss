@@ -5,14 +5,17 @@
 	display: grid;
 	grid-template-areas: ". content .";
 	grid-template-columns: 10px auto 10px;
+
 	#background {
 		background-color: $white;
 		overflow: hidden;
 		padding: 1080px;
 		z-index: -10000;
 	}
+
 	#error-container {
 		grid-area: content;
+
 		#dog-img {
 			#dog-whole-svg {
 				display: block;
@@ -20,55 +23,68 @@
 				margin-top: 30vh;
 				position: fixed;
 				z-index: 1000;
+
 				svg {
 					height: 242px;
 					width: 294px;
 				}
 			}
 		}
+
 		#scroll-div {
 			height: 150vh;
 		}
+
 		#running-text {
 			//display: grid;
 			margin-left: -100vw;
 			margin-top: 38vh;
 			overflow: hidden;
 			position: fixed;
+
 			h1 {
 				font-family: 'Roboto Mono', monospace;
 				font-size: rem-calc(30);
 				line-height: rem-calc(30);
 				text-align: center;
+
 				@include md {
-					font-size: rem-calc(50);
-					line-height: rem-calc(50);
+					font-size: rem-calc(80);
+					line-height: rem-calc(80);
 				}
 			}
 		}
+
 		#error-text {
 			display: grid;
 			grid-template-columns: repeat(3, 1fr);
 			margin-left: 44vw;
 			margin-top: 65vh;
 			position: fixed;
+
 			h1 {
 				font-family: 'Roboto Mono', monospace;
 				text-align: center;
+				font-size: rem-calc(100);
 			}
 		}
+
 		#scroll-text {
 			color: $pastel-orange;
 			margin-top: 90vh;
-			position: relative;
+			margin-left: 30vw;
+			position: fixed;
+
 			p {
 				font-family: 'Roboto Mono', monospace;
+				font-size: rem-calc(25);
 				font-weight: 400;
 				text-align: center;
 			}
 		}
 	}
 }
+
 #error-page2 {
 	column-gap: 5%;
 	display: grid;
@@ -76,10 +92,12 @@
 	margin-top: 200vh;
 	padding: 5vw;
 	padding-top: 100vh;
+
 	#sorry-text {
 		grid-column-start: 1;
 		grid-row-start: 2;
 	}
+
 	#dog2 {
 		grid-column-start: 2;
 		grid-row-start: 2;
@@ -87,6 +105,7 @@
 		place-items: center;
 		width: 60%;
 	}
+
 	#teary-eyes {
 		grid-column-start: 2;
 		grid-row-start: 2;
@@ -94,19 +113,61 @@
 		padding-top: 10%;
 		place-items: center;
 	}
+
 	#teary-eyes:hover {
 		cursor: pointer;
 		opacity: 0;
 		transition: opacity .5s;
 	}
+
 	#click-him {
 		grid-column-start: 2;
 		grid-row-start: 3;
 		margin-left: -20vw;
 		padding-top: 5vh;
 	}
-	#button {
+
+	#home-button {
 		grid-column-start: 2;
 		grid-row-start: 1;
+
+		// button {
+		// 	display: block;
+		// 	border: 1px $red solid;
+		// 	border-radius: 30px;
+		// 	color: $red;
+		// 	cursor: pointer;
+		// 	font-family: 'Roboto Mono', monospace;
+		// 	// height: 100%;
+		// 	padding: 20px 20px;
+		// 	margin-top: 20px;
+		// 	background-color: white;
+		// }
+
+		a {
+			margin-top: 30px;
+			// display: block;
+			// margin-left: auto;
+			// margin-right: auto;
+			// margin-top: 50px;
+			border: 2px solid $red;
+			border-radius: 30px;
+			color: $red;
+			// margin-left: 30vw;
+			padding: 15px 20px;
+		}
+
+		a:link,
+		a:visited {
+			text-decoration: none;
+		}
+
+		a:hover,
+		a:active {
+			color: $white;
+			background-color: $red;
+			// color: $white;
+			transition: 0.4s;
+		}
 	}
 }

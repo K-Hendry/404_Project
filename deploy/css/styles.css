@@ -423,11 +423,8 @@ li {
     Buttons
 ============= */
 button {
-  background-color: none;
+  background-color: #fff;
   border-color: #C03924;
-  border-width: 2px;
-  border-radius: 27px;
-  padding: 10px 20px;
   color: #C03924;
 }
 
@@ -851,8 +848,8 @@ footer ul li {
 }
 @media (min-width: 768px) {
   #error-page #error-container #running-text h1 {
-    font-size: 3.125rem;
-    line-height: 3.125rem;
+    font-size: 5rem;
+    line-height: 5rem;
   }
 }
 #error-page #error-container #error-text {
@@ -865,14 +862,17 @@ footer ul li {
 #error-page #error-container #error-text h1 {
   font-family: "Roboto Mono", monospace;
   text-align: center;
+  font-size: 6.25rem;
 }
 #error-page #error-container #scroll-text {
   color: #F8BD7B;
   margin-top: 90vh;
-  position: relative;
+  margin-left: 30vw;
+  position: fixed;
 }
 #error-page #error-container #scroll-text p {
   font-family: "Roboto Mono", monospace;
+  font-size: 1.5625rem;
   font-weight: 400;
   text-align: center;
 }
@@ -914,7 +914,24 @@ footer ul li {
   margin-left: -20vw;
   padding-top: 5vh;
 }
-#error-page2 #button {
+#error-page2 #home-button {
   grid-column-start: 2;
   grid-row-start: 1;
+}
+#error-page2 #home-button a {
+  margin-top: 30px;
+  border: 2px solid #C03924;
+  border-radius: 30px;
+  color: #C03924;
+  padding: 15px 20px;
+}
+#error-page2 #home-button a:link,
+#error-page2 #home-button a:visited {
+  text-decoration: none;
+}
+#error-page2 #home-button a:hover,
+#error-page2 #home-button a:active {
+  color: #fff;
+  background-color: #C03924;
+  transition: 0.4s;
 }
