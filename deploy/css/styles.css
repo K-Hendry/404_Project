@@ -911,7 +911,7 @@ footer ul li {
 #error-page2 #click-him {
   grid-column-start: 2;
   grid-row-start: 3;
-  margin-left: -20vw;
+  margin-left: -10vw;
   padding-top: 5vh;
 }
 #error-page2 #home-button {

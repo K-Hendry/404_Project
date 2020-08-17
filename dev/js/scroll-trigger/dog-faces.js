@@ -47,7 +47,7 @@ dogFacesAnimationStateThree.to("#left-eye-pupil-bot", {duration: stateTwo, alpha
 
 ScrollTrigger.create({
     trigger: "#scroll-div",
-    start: "bottom 45%",
+    start: "bottom 35%",
     // end: "bottom 30%",
     animation: dogFacesAnimationStateThree,
     toggleActions: "play none none none",
